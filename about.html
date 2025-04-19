@@ -14,10 +14,126 @@
         href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@300;400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>About || Aman Transport Packers And Movers</title>
+    <title>About || Safe Xpress Packers And Movers </title>
 </head>
 
 <body>
+      <!-- --------------Start Modal------------ -->
+      <!-- <div
+      class="modal fade"
+      id="offerModal"
+      tabindex="-1"
+      aria-hidden="true"
+      style="z-index: 110000"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h4>Get 20% Off on All Services for New Customers!</h4>
+            <a href="tel:+91  9812661365  ">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- --------------End Modal------------ -->
+    <!-- ---------------Track Your Order--------------- -->
+    <button id="complaintBtn">Track Your Order</button>
+    <div id="enquiryForm">
+      <div class="track-container">
+        <h4 class="text-center fw-bold">
+          Track <span class="fw-normal">your</span> order
+        </h4>
+
+        <!-- Nav Tabs -->
+        <ul
+          class="nav nav-tabs track-tabs border-0 d-flex justify-content-between"
+          id="trackTab"
+          role="tablist"
+        >
+          <li class="nav-item w-25" role="presentation">
+            <button
+              class="nav-link active text-center"
+              id="mobile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#mobile"
+              type="button"
+              role="tab"
+            >
+              Mobile
+            </button>
+          </li>
+          <li class="nav-item w-25" role="presentation">
+            <button
+              class="nav-link text-center"
+              id="awb-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#awb"
+              type="button"
+              role="tab"
+            >
+              AWB
+            </button>
+          </li>
+          <li class="nav-item w-25" role="presentation">
+            <button
+              class="nav-link text-center"
+              id="order-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#order"
+              type="button"
+              role="tab"
+            >
+              Order Id
+            </button>
+          </li>
+          <li class="nav-item w-25" role="presentation">
+            <button
+              class="nav-link text-center"
+              id="lrn-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#lrn"
+              type="button"
+              role="tab"
+            >
+              LRN
+            </button>
+          </li>
+        </ul>
+
+        <!-- Tab Content -->
+        <div class="tab-content mt-3 p-lg-0 p-3" id="trackTabContent">
+          <div class="tab-pane fade show active" id="mobile" role="tabpanel">
+            <input
+              type="text"
+              class="form-control track-input"
+              id="mobile-input"
+              placeholder="Enter Here"
+              required
+            />
+            <p class="error-msg" id="error-msg">
+              ⚠ Server Error. Please call support.
+            </p>
+            <button class="btn track-btn w-100 mt-3" id="track-btn">
+              Get Track
+            </button>
+            <a
+              href="tel:+91  9812661365  "
+              class="btn call-btn w-100"
+              id="call-btn"
+              >📞 Call Support</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- ===header-section-start=== -->
 
     <header>
@@ -32,14 +148,14 @@
                     <div class="col-lg-6">
                         <div class="top-box">
                             <div class="top-item">
-                                <a href="mailto:amanpacker532@gmail.com"><i
-                                        class="fa-solid fa-envelope"></i>amanpacker532@gmail.com</a>
+                                <a href="mailto: safexpressmovers01@gmail.com "><i
+                                        class="fa-solid fa-envelope"></i> safexpressmovers01@gmail.com </a>
                             </div>
                             <div class="top-item d-none">
                                 <a> <i class="fas fa-clock"></i>Opening Hours : 08:00AM To 07:00PM</a>
                             </div>
                             <div class="top-item top-item2 d-block">
-                                <a href="tel:+91 9849168077"><i class="fa-solid fa-phone"></i></i>+91 9849168077</a>
+                                <a href="tel:+91  9812661365 "><i class="fa-solid fa-phone"></i></i>+91  9812661365 </a>
                             </div>
                         </div>
                     </div>
@@ -69,7 +185,7 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="about.html">About-Us</a>
@@ -77,6 +193,19 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="service.html">Service</a>
                                 </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="networkDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Network
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="networkDropdown">
+                                      <li><a class="dropdown-item" href="SafexpressGanganagar.html">Safexpress Ganganagar</a></li>
+                                      <li><a class="dropdown-item" href="SafexpressSuratgarh.html">Safexpress Suratgarh</a></li>
+                                      <li><a class="dropdown-item" href="SafexpressBikaner.html">Safexpress Bikaner</a></li>
+                                      <li><a class="dropdown-item" href="SafexpressJodhpur.html">Safexpress Jodhpur</a></li>
+                                      <li><a class="dropdown-item" href="SafexpressJesalmer.html">Safexpress Jesalmer</a></li>
+                                      <li><a class="dropdown-item" href="SafexpressAssam.html">Safexpress Assam</a></li>
+                                    </ul>
+                                  </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="gallery.html">Gallery</a>
                                 </li>
@@ -85,10 +214,10 @@
                                 </li>
                             </ul>
                             <div class="book">
-                                <a href="tel:+91 9346102321"><i class="fa-solid fa-phone"></i>
+                                <a href="tel:+91  9812661365 "><i class="fa-solid fa-phone"></i>
                                     <div class="tell">
                                         <b>Customber Care : </b><br>
-                                        <span>+91 9346102321</span>
+                                        <span>+91  9812661365 </span>
                                     </div>
                                 </a>
                             </div>
@@ -129,7 +258,7 @@
             <div class="quote">
                 <div class="quote-item">
                     <h5><b>Call Us For Moving</b></h5>
-                    <a href="tel:+91 9849168077">+91 9849168077</a>
+                    <a href="tel:+91  9812661365 ">+91  9812661365 </a>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-lg-4">
@@ -207,10 +336,10 @@
     <!--===Whatsapp-Section===-->
 
     <div class="what">
-        <a href="https://api.whatsapp.com/send?phone=9849168077&text=hello" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone= 9812661365 &text=hello" target="_blank">
             <i class="fa-brands fa-whatsapp"></i>
         </a>
-        <a href="tel:+91 9849168077" style="background-color:#FFAD01;">
+        <a href="tel:+91  9812661365 " style="background-color:#FFAD01;">
             <i class="fa-solid fa-phone"></i>
         </a>
     </div>
@@ -361,18 +490,18 @@
                 <div class="col-lg-6">
                     <div class="as-content">
                         <span class="under">About Us</span>
-                        <h2>Welcome To Aman Transport Packers And Movers</h2>
-                        <p>Welcome to Aman Transport Packers And Movers! We are a leading packers and movers company offering
+                        <h2>Welcome To Safe Xpress Packers And Movers </h2>
+                        <p>Welcome to Safe Xpress Packers And Movers ! We are a leading packers and movers company offering
                             comprehensive relocation solutions for residential and commercial clients. Our experienced
                             team of professionals specializes in expert residential and commercial moving solutions,
                             ensuring a seamless and stress-free experience. We prioritize the use of high-quality
                             packing materials to safeguard your belongings during transit. Our skilled professionals
-                            handle the crucial tasks of loading and unloading with precision and care. With Aman Transport Packers And Movers, you can trust us for a safe and successful relocation. Contact us today
+                            handle the crucial tasks of loading and unloading with precision and care. With Safe Xpress Packers And Movers , you can trust us for a safe and successful relocation. Contact us today
                             for a hassle-free moving experience.</p>
                         <p>By using high-quality packing materials, we prioritize the safety and security of your
                             possessions. Our professional packers are trained to handle and pack items with utmost care,
                             ensuring that they are well-protected throughout the relocation process.</p>
-                        <p>Whether you are moving locally  or across long distances, trust Aman Transport Packers And Movers to
+                        <p>Whether you are moving locally  or across long distances, trust Safe Xpress Packers And Movers  to
                             provide you with superior packing materials and expert packing services for a secure and
                             successful relocation.</p>
                     </div>
@@ -396,7 +525,7 @@
                 <div class="col-lg-6">
                     <div class="other-content">
                         <h2>Trusted by some of India's leading companies for over 10 year's</h2>
-                        <p>Aman Transport Packers And Movers has established a strong reputation as a trusted partner for relocation services, earning the trust of some of India's leading companies over the past 10 years. Our commitment to professionalism, reliability, and customer satisfaction has made us the preferred choice for numerous businesses across various industries.</p>
+                        <p>Safe Xpress Packers And Movers  has established a strong reputation as a trusted partner for relocation services, earning the trust of some of India's leading companies over the past 10 years. Our commitment to professionalism, reliability, and customer satisfaction has made us the preferred choice for numerous businesses across various industries.</p>
                         <p>We understand the unique challenges and requirements of corporate relocations, and our expertise in handling complex moves has positioned us as a trusted name in the industry. Our ability to seamlessly manage large-scale relocations while minimizing downtime has earned us the confidence of renowned organizations.</p>
                         <div class="row" id="counter">
                             <div class="col-md-4">
@@ -446,7 +575,7 @@
                         <img src="assets/images/ms1.png" alt="">
                     </div>
                     <h4>Our Mission</h4>
-                    <p>At Aman Transport Packers And Movers, our mission is to provide top-quality relocation services with utmost professionalism, efficiency, and customer satisfaction. We aim to exceed our clients' expectations by delivering seamless and stress-free moving experiences tailored to their unique needs.</p>
+                    <p>At Safe Xpress Packers And Movers , our mission is to provide top-quality relocation services with utmost professionalism, efficiency, and customer satisfaction. We aim to exceed our clients' expectations by delivering seamless and stress-free moving experiences tailored to their unique needs.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mt-3">
@@ -481,12 +610,12 @@
             <div class="col-lg-6">
                 <div class="ch-title">
                     <span class="under">Our Testimonial</span>
-                    <h2>What Customers Say <br> About Aman Transport  <br> Packers And Movers </h2>
+                    <h2>What Customers Say <br> About Safe Xpress  <br> Packers And Movers </h2>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="ch-text">
-                    <p>Customers rave about Aman Transport Packers And Movers, praising their professionalism, attention to detail, and reliable service. They appreciate the stress-free relocations, careful handling, and on-time delivery.</p>
+                    <p>Customers rave about Safe Xpress Packers And Movers , praising their professionalism, attention to detail, and reliable service. They appreciate the stress-free relocations, careful handling, and on-time delivery.</p>
                 </div>
             </div>
         </div>
@@ -500,7 +629,7 @@
                         class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                         class="fa-solid fa-star"></i>
                 </div>
-                <p>I highly recommend Aman Transport Packers And Movers for their reliable and efficient service. They handled our international relocation with utmost care and professionalism.</p>
+                <p>I highly recommend Safe Xpress Packers And Movers  for their reliable and efficient service. They handled our international relocation with utmost care and professionalism.</p>
                 <div class="tes-info">
                     <div class="tes-img">
                         <img src="assets/images/tes.avif" alt="">
@@ -520,7 +649,7 @@
                         class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                         class="fa-regular fa-star"></i>
                 </div>
-                <p>We have been relying on Aman Transport Packers And Movers in Secunderabad for years. Their dedication to customer satisfaction and expertise in domestic relocation is unmatched.</p>
+                <p>We have been relying on Safe Xpress Packers And Movers  in Secunderabad for years. Their dedication to customer satisfaction and expertise in domestic relocation is unmatched.</p>
                 <div class="tes-info">
                     <div class="tes-img">
                         <img src="assets/images/tes.avif" alt="">
@@ -540,7 +669,7 @@
                         class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                         class="fa-solid fa-star-half-stroke"></i>
                 </div>
-                <p>Aman Transport Packers And Movers provided exceptional warehouse services for our storage needs. Their facility was secure, well-maintained, and their staff was helpful and professional </p>
+                <p>Safe Xpress Packers And Movers  provided exceptional warehouse services for our storage needs. Their facility was secure, well-maintained, and their staff was helpful and professional </p>
                 <div class="tes-info">
                     <div class="tes-img">
                         <img src="assets/images/tes.avif" alt="">
@@ -560,7 +689,7 @@
                         class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i
                         class="fa-regular fa-star"></i>
                 </div>
-                <p>We are grateful to Aman Transport Packers And Movers for their reliable vehicle transportation service. They delivered our car safely and on time, exceeding our expectations.</p>
+                <p>We are grateful to Safe Xpress Packers And Movers  for their reliable vehicle transportation service. They delivered our car safely and on time, exceeding our expectations.</p>
                 <div class="tes-info">
                     <div class="tes-img">
                         <img src="assets/images/tes.avif" alt="">
@@ -624,7 +753,7 @@
                     <div class="logo">
                         <img src="assets/images/logo.png" alt="">
                     </div>
-                    <p>At Aman Transport Packers And Movers, we never compromise on the quality of packing materials. We
+                    <p>At Safe Xpress Packers And Movers , we never compromise on the quality of packing materials. We
                         source our supplies from trusted vendors, ensuring that they meet our stringent standards.
                     </p>
                     <ul class="social-link">
@@ -654,28 +783,29 @@
                 <div class="f-box">
                     <h4>Contact Info</h4>
                     <ul>
-                        <li><i class="fa-solid fa-location-dot"></i><span># 6-5-146/1 , Babul Reddy Nagar , Aramghar 'X' Road , Hyderabad-500077</span></li>
-                        <li><i class="fa-solid fa-phone"></i><a href="tel:+91 9849168077">+91 9849168077</a></li>
-                        <li><i class="fa-solid fa-phone"></i><a href="tel:+91 9346102321">+91 9346102321</a></li>
-                        <li><i class="fa-solid fa-envelope"></i><a href="mailto:amanpacker532@gmail.com">amanpacker532@gmail.com</a></li>
-                        <li><i class="fa-solid fa-envelope"></i><a href="mailto:info@amantranspotrhyd.com">info@amantranspotrhyd.com</a></li>
+                        <li><i class="fa-solid fa-location-dot"></i><span>Shop no 2 plot N. 5 Near Somesh vihar colony chhawla BSF Cump New Delhi 110071</span></li>
+                        <li><i class="fa-solid fa-phone"></i><a href="tel:+91  9812661365 ">+91  9812661365 </a></li>
+                        <!-- <li><i class="fa-solid fa-phone"></i><a href="tel:+91  9812661365 ">+91  9812661365 </a></li> -->
+                        <li><i class="fa-solid fa-envelope"></i><a href="mailto: safexpressmovers01@gmail.com "> safexpressmovers01@gmail.com </a></li>
+                        <!-- <li><i class="fa-solid fa-envelope"></i><a href="mailto:info@amantranspotrhyd.com">info@amantranspotrhyd.com</a></li> -->
                     </ul>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11089.445870757436!2d78.4199838598903!3d17.320502190597786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbbd7a7e662de5%3A0xbe5500ef923d7386!2sBabul%20Reddy%20Nagar%2C%20Nawab%20Saheb%20Kunta%2C%20Hyderabad%2C%20Telangana!5e1!3m2!1sen!2sin!4v1739176917873!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d2829.147312412235!2d77.682472!3d13.041122!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDAyJzI4LjAiTiA3N8KwNDEnMDQuOCJF!5e1!3m2!1sen!2sin!4v1744981934861!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="copy-right">
-                <p>© Copyright 2025 | Powered by Aman Transport Packers And Movers. and Designed By <a
+                <p>© Copyright 2025 | Powered by Safe Xpress Packers And Movers . and Designed By <a
                         href="https://standupstartups.com/">Standup Startups</a></p>
             </div>
         </div>
     </div>
 </footer>
+
 
 
   <!-- ===Footer-Section-End=== -->
