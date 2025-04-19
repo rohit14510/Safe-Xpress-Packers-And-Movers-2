@@ -1725,6 +1725,10 @@ padding: 14px 20px;
 background-color: #00bf63;
 border: none;
 }
+.b2bpartner{
+ padding: 5px;
+  border:3px double rgb(0, 191, 99);
+}
 .moving-text {
   display: inline-block;
   white-space: nowrap;
@@ -1734,9 +1738,9 @@ border: none;
 
 @keyframes moveLeftRight {
   0% {
-      transform: translateX(-100%);
+      transform: translateX(100%);
   }
   100% {
-      transform: translateX(100%);
+      transform: translateX(-100%);
   }
 }
