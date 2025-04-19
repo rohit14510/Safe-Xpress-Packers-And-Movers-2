@@ -295,7 +295,7 @@ header {
   width: 100%;
   height: 400px;
   /* padding: 120px 0px; */
-  background-image: linear-gradient(#00000097, #00000097), url(../images/packers-and-movers.jpg);
+  background-image: linear-gradient(#00000097, #00000097), url(../images/slider-1.jpg);
   color: #fff;
   position: relative;
   background-repeat: no-repeat;
@@ -303,11 +303,11 @@ header {
 }
 
 .hero-slide2 {
-  background-image: linear-gradient(#00000097, #00000097), url(../images/packers-and-movers.jpg);
+  background-image: linear-gradient(#00000097, #00000097), url(../images/slider-2.jpg);
 }
 
 .hero-slide3 {
-  background-image: linear-gradient(#00000097, #00000097), url(../images/packers-and-movers.jpg);
+  background-image: linear-gradient(#00000097, #00000097), url(../images/slider-3.jpg);
 }
 @media screen and (max-width:480px) {
 
