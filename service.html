@@ -137,7 +137,7 @@
     <!-- ===header-section-start=== -->
 
     <div class="mobile-top-bar text-center bg-danger text-white p-2 d-lg-none d-block overflow-hidden">
-        <p class="fw-bold m-0 moving-text">Get 20% Off on All Services for New Customers!</p>
+        <p class="fw-bold m-0 moving-text">Get 30% Off on All Services for New Customers!</p>
     </div>
     <header class="sticky-header">
         <div class="top-bar d-lg-block d-none">
@@ -195,9 +195,20 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="about.html">About-Us</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="service.html">Service</a>
-                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                      Service
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="service.html">Household Shifting</a></li>
+                                      <li><a class="dropdown-item" href="service.html">Office Shifting</a></li>
+                                      <li><a class="dropdown-item" href="service.html">International Shifting</a></li>
+                                      <li><a class="dropdown-item" href="service.html">Storage & Warehousing</a></li>
+                                      <li><a class="dropdown-item" href="service.html">Local Shifting</a></li>
+                                      <li><a class="dropdown-item" href="service.html">Car Transportation </a></li>
+                                    </ul>
+                                  </li>
+                                  
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="networkDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                       Network
@@ -312,7 +323,7 @@
                                             <select name="service" required>
                                                 <option value="Select Service">Select Service</option>
                                                 <option value="Household Shifting">Household Shifting</option>
-                                                <option value="Corporate Relocation">Corporate Relocation</option>
+                                                <option value="Office  Shifting ">Office  Shifting </option>
                                                 <option value="Domestic Relocation">Domestic Relocation</option>
                                                 <option value="Warehousing Service">Warehousing Service</option>
                                                 <option value="Loading And Unloading ">Loading And Unloading </option>
@@ -343,83 +354,108 @@
 
     <!-- ===quote-section-start=== -->
 
-    <section class="quote-section">
-        <div class="container">
-            <div class="quote">
-                <div class="quote-item">
-                    <h5><b>Call Us For Moving</b></h5>
-                    <a href="tel:+91  9812661365 ">+91  9812661365 </a>
+    <section class="container mobileform-section p-2">
+        <div class="form-box">
+          <h2>Get A Price Now</h2>
+          <form action="send.php" method="POST">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="f-group">
+                  <input
+                    type="text"
+                    placeholder="Enter Your Name"
+                    name="name"
+                    required
+                  />
                 </div>
-                <div class="row align-items-center">
-                    <div class="col-lg-4">
-                        <div class="quote-img">
-                            <img src="assets/images/quote.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
-                        <div class="quote-form">
-                            <h2>Get A Free Quote</h2>
-                            <form action="https://api.web3forms.com/submit" method="POST">
-                                <input type="hidden" name="access_key" value="3dfd8a97-1cfd-4d45-91f7-28a0af64871d">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-6">
-                                        <div class="f-group">
-                                            <input type="text" placeholder="Your Name" name="name" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6">
-                                        <div class="f-group">
-                                            <input type="email" placeholder="Your Email" name="email" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6">
-                                        <div class="f-group">
-                                            <input type="number" placeholder="Your Mobile No." name="phone" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6">
-                                        <div class="f-group">
-                                            <input type="text" placeholder="Move From" name="movefrom" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6">
-                                        <div class="f-group">
-                                            <input type="text" placeholder="Move To" name="moveto" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6">
-                                        <div class="f-group">
-                                            <select name="service" required>
-                                                <option value="Select Service">Select Service</option>
-                                                <option value="Household Shifting">Household Shifting</option>
-                                                <option value="Corporate Relocation">Corporate Relocation</option>
-                                                <option value="Domestic Relocation">Domestic Relocation</option>
-                                                <option value="Warehousing Service">Warehousing Service</option>
-                                                <option value="Loading And Unloading ">Loading And Unloading </option>
-                                                <option value="Vehicle Transportation">Vehicle Transportation</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-7">
-                                        <div class="f-group">
-                                            <textarea name="massage" cols="30" rows="1"
-                                                placeholder="Write Message" required></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-5">
-                                        <div class="f-group">
-                                            <button class="sec-btn" type="submit" name="submit"><span>Send
-                                                    Message</span></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+              </div>
+              <div class="col-md-6">
+                <div class="f-group">
+                  <input
+                    type="number"
+                    placeholder="Enter Phone No."
+                    name="phone"
+                    required
+                  />
                 </div>
+              </div>
+              <!-- <div class="col-md-6">
+                <div class="f-group">
+                  <input
+                    type="text"
+                    placeholder="Enter Your Email"
+                    name="email"
+                    required
+                  />
+                </div>
+              </div> -->
+              <div class="col-md-6">
+                <div class="f-group">
+                  <input
+                    type="text"
+                    placeholder="Move From"
+                    name="movefrom"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="f-group">
+                  <input
+                    type="text"
+                    placeholder="Move To"
+                    name="moveto"
+                    required
+                  />
+                </div>
+              </div>
+              <!-- <div class="col-md-6">
+                <div class="f-group">
+                  <select name="service" required>
+                    <option value="Select Service">Select Service</option>
+                    <option value="Household Shifting">Household Shifting</option>
+                    <option value="Office  Shifting ">
+                      Office  Shifting 
+                    </option>
+                    <option value="Domestic Relocation">
+                      Domestic Relocation
+                    </option>
+                    <option value="Warehousing Service">
+                      Warehousing Service
+                    </option>
+                    <option value="Loading And Unloading ">
+                      Loading And Unloading
+                    </option>
+                    <option value="Vehicle Transportation">
+                      Vehicle Transportation
+                    </option>
+                  </select>
+                </div>
+              </div> -->
             </div>
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <div class="f-group">
+                  <textarea
+                    name="message"
+                    cols="30"
+                    rows="1"
+                    placeholder="Write Message"
+                    required
+                  ></textarea>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="f-group" style="text-align: right">
+                  <button class="sec-btn" type="submit">
+                    <span>Check Price</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
         </div>
-    </section>
+      </section>
 
     <!-- ===quote-section-end=== -->
 
@@ -429,13 +465,13 @@
         <div class="container">
             <div class="ser-slider">
                 <div class="slider-nav">
-                    <div class="ser-list"><img src="assets/images/ser1.png" alt=""><span> Corporate Relocation</span>
+                    <div class="ser-list"><img src="assets/images/ser1.png" alt=""><span> Office <br> Shifting</span>
                     </div>
-                    <div class="ser-list "><img src="assets/images/ser2.png" alt=""><span>Domestic Relocation</span>
+                    <div class="ser-list "><img src="assets/images/ser2.png" alt=""><span>Household Shifting</span>
                     </div>
                     <div class="ser-list"><img src="assets/images/ser5.png" alt=""><span>International Relocation</span>
                     </div>
-                    <div class="ser-list"><img src="assets/images/ser4.png" alt=""><span>Loading And Unloading</span>
+                    <div class="ser-list"><img src="assets/images/ser4.png" alt=""><span>Local <br> Shifting</span>
                     </div>
                     <div class="ser-list"><img src="assets/images/ser6.png" alt=""><span>Warehousing Services</span></div>
                     <div class="ser-list"><img src="assets/images/ser3.png" alt=""><span>Vehicle Transportation</span></div>
@@ -450,11 +486,11 @@
                             </div>
                             <div class="col-xl-7">
                                 <div class="ser-box">
-                                    <h2>Reliable and Professional Corporate Relocation Services</h2>
+                                    <h2>Reliable and Professional Office  Shifting  Services</h2>
                                     <p>Welcome to Safe Xpress Packers And Movers , your trusted partner for corporate
                                         relocations. We understand the unique challenges involved in moving an entire
                                         business. Our experienced team specializes in providing seamless and efficient
-                                        corporate relocation services to ensure a smooth transition for your
+                                        Office  Shifting  services to ensure a smooth transition for your
                                         organization.</p>
                                     <p>With meticulous planning and attention to detail, we work closely with your team
                                         to create a customized relocation plan that suits your specific requirements.
@@ -469,9 +505,9 @@
                                         to provide you with peace of mind. Our dedicated customer service team is
                                         available to address any concerns or questions you may have throughout the
                                         relocation process.</p>
-                                    <p>Trust us to manage your corporate relocation professionally, allowing you to
+                                    <p>Trust us to manage your Office  Shifting  professionally, allowing you to
                                         focus on your business goals and success. Contact us today to discuss your
-                                        corporate relocation needs, and let us ensure a smooth and hassle-free
+                                        Office  Shifting  needs, and let us ensure a smooth and hassle-free
                                         transition for your organization.</p>
                                 </div>
                             </div>
@@ -555,10 +591,10 @@
                         <div class="row justify-content-center align-items-center">
                             <div class="col-xl-7">
                                 <div class="ser-box">
-                                    <h2>Experienced Professionals for Loading and Unloading</h2>
-                                    <p>Safe Xpress Packers And Movers  offers professional and reliable loading and unloading
+                                    <h2>Experienced Professionals for Local  Shifting </h2>
+                                    <p>Safe Xpress Packers And Movers  offers professional and reliable Local  Shifting 
                                         services as part of our comprehensive relocation solutions. We understand that
-                                        the process of loading and unloading belongings can be physically demanding and
+                                        the process of Local  Shifting  belongings can be physically demanding and
                                         time-consuming. Our experienced team is here to take the burden off your
                                         shoulders and ensure a smooth and efficient transition.
                                     </p>
@@ -569,14 +605,14 @@
                                         secured for transportation</p>
                                     <p>At Aditya Packers and Movers, we prioritize the safety and protection of your
                                         belongings. We employ proper padding, strapping, and packaging techniques to
-                                        prevent any damage during the loading and unloading process. Our team is trained
+                                        prevent any damage during the Local  Shifting  process. Our team is trained
                                         to handle fragile and valuable items with extra care, ensuring their safe
                                         arrival at the destination. </p>
                                     <p>Whether you are moving locally or across long distances, our loading and
                                         unloading services are designed to simplify your relocation process. We save you
                                         time and effort by taking care of the heavy lifting and ensure that your
                                         belongings are handled with utmost care throughout the entire process.</p>
-                                    <p>Choose Aditya Packers and Movers for reliable and efficient loading and unloading
+                                    <p>Choose Aditya Packers and Movers for reliable and efficient Local  Shifting 
                                         services. Contact us today to discuss your moving needs and let our professional
                                         team make your relocation a stress-free experience.</p>
                                 </div>
@@ -782,7 +818,7 @@
                             relocation services, earning the trust of some of India's leading companies over the past 10
                             years. Our commitment to professionalism, reliability, and customer satisfaction has made us
                             the preferred choice for numerous businesses across various industries.</p>
-                        <p>We understand the unique challenges and requirements of corporate relocations, and our
+                        <p>We understand the unique challenges and requirements of Office  Shifting s, and our
                             expertise in handling complex moves has positioned us as a trusted name in the industry. Our
                             ability to seamlessly manage large-scale relocations while minimizing downtime has earned us
                             the confidence of renowned organizations.</p>
