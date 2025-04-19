@@ -122,9 +122,11 @@
      </div>
    </div>
     <!-- ===header-section-start=== -->
-
-    <header>
-        <div class="top-bar">
+    <div class="mobile-top-bar text-center bg-danger text-white p-2 d-lg-none d-block">
+        <p class="fw-bold m-0">Get 20% Off on All Services for New Customers!</p>
+    </div>
+    <header class="sticky-header">
+        <div class="top-bar d-lg-block d-none">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-3">
@@ -159,11 +161,12 @@
                 </div>
             </div>
         </div>
+       <div class=""  >
         <div class="menu">
             <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light ">
+                <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                        <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"  alt=""></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -213,6 +216,7 @@
                 </nav>
             </div>
         </div>
+       </div>
     </header>
 
     <!-- ===header-section-End=== -->
@@ -224,7 +228,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
-                        <div class="hero-item">
+                        <!-- <div class="hero-item">
                             <span class="under">Packers & Movers Services</span>
                             <h2>Expert Residential and Commercial Moving Solutions</h2>
                             <p>At Safe Xpress Packers And Movers  , we take pride in offering expert residential and commercial
@@ -232,7 +236,7 @@
                                 overwhelming process, but with our professional expertise and attention to detail, we
                                 ensure a seamless and stress-free relocation experience.</p>
                             <a href="contact.html" class="sec-btn"><span>Get Quote</span></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -241,7 +245,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
-                        <div class="hero-item">
+                        <!-- <div class="hero-item">
                             <span class="under">Packers & Movers Services</span>
                             <h2>High-quality Packing Materials for Safe Relocation</h2>
                             <p>At Safe Xpress Packers And Movers  , we understand the importance of using high-quality packing
@@ -249,7 +253,7 @@
                                 mile to provide superior packing supplies that safeguard your items from damage and
                                 ensure their safe arrival at the destination.</p>
                             <a href="contact.html" class="sec-btn"><span>Get Quote</span></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -258,7 +262,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
-                        <div class="hero-item">
+                        <!-- <div class="hero-item">
                             <span class="under">Packers & Movers Services</span>
                             <h2>Experienced Professionals For Loading And Unloading</h2>
                             <p>Our experienced professionals handle the crucial tasks of loading and unloading with
@@ -266,7 +270,7 @@
                                 belongings, efficient loading onto transport vehicles, and careful unloading at your new
                                 destination. Trust us for a smooth and hassle-free moving experience</p>
                             <a href="contact.html" class="sec-btn"><span>Get Quote</span></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -276,7 +280,7 @@
     <!-- ===Hero-Section-End=== -->
 
     <!-- ===quote-section-start=== -->
-
+<!-- 
     <section class="quote-section">
         <div class="container">
             <div class="quote">
@@ -353,7 +357,109 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+    <section class="container mobileform-section p-2">
+        <div class="form-box">
+          <h2>Get A Price Now</h2>
+          <form action="send.php" method="POST">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="f-group">
+                  <input
+                    type="text"
+                    placeholder="Enter Your Name"
+                    name="name"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="f-group">
+                  <input
+                    type="number"
+                    placeholder="Enter Phone No."
+                    name="phone"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="f-group">
+                  <input
+                    type="text"
+                    placeholder="Enter Your Email"
+                    name="email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="f-group">
+                  <input
+                    type="text"
+                    placeholder="Move From"
+                    name="movefrom"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="f-group">
+                  <input
+                    type="text"
+                    placeholder="Move To"
+                    name="moveto"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="f-group">
+                  <select name="service" required>
+                    <option value="Select Service">Select Service</option>
+                    <option value="Household Shifting">Household Shifting</option>
+                    <option value="Corporate Relocation">
+                      Corporate Relocation
+                    </option>
+                    <option value="Domestic Relocation">
+                      Domestic Relocation
+                    </option>
+                    <option value="Warehousing Service">
+                      Warehousing Service
+                    </option>
+                    <option value="Loading And Unloading ">
+                      Loading And Unloading
+                    </option>
+                    <option value="Vehicle Transportation">
+                      Vehicle Transportation
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <div class="f-group">
+                  <textarea
+                    name="message"
+                    cols="30"
+                    rows="1"
+                    placeholder="Write Message"
+                    required
+                  ></textarea>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="f-group" style="text-align: right">
+                  <button class="sec-btn" type="submit">
+                    <span>Check Price</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
 
     <!-- ===quote-section-end=== -->
 
@@ -450,18 +556,18 @@
                 <div class="col-lg-6">
                     <div class="as-content">
                         <span class="under">About Us</span>
-                        <h2>Welcome To Safe Xpress Packers And Movers  </h2>
-                        <p>Welcome to Safe Xpress Packers And Movers  ! We are a leading packers and movers company offering
+                        <h2 class="topic-color" >Welcome To Safe Xpress Packers And Movers  </h2>
+                        <p class="topic-color">Welcome to Safe Xpress Packers And Movers  ! We are a leading packers and movers company offering
                             comprehensive relocation solutions for residential and commercial clients. Our experienced
                             team of professionals specializes in expert residential and commercial moving solutions,
                             ensuring a seamless and stress-free experience. We prioritize the use of high-quality
                             packing materials to safeguard your belongings during transit. Our skilled professionals
                             handle the crucial tasks of loading and unloading with precision and care. With Safe Xpress Packers And Movers  , you can trust us for a safe and successful relocation. Contact us today
                             for a hassle-free moving experience.</p>
-                        <p>By using high-quality packing materials, we prioritize the safety and security of your
+                        <p class="topic-color">By using high-quality packing materials, we prioritize the safety and security of your
                             possessions. Our professional packers are trained to handle and pack items with utmost care,
                             ensuring that they are well-protected throughout the relocation process.</p>
-                        <p>Whether you are moving locally or across long distances, trust Safe Xpress Packers And Movers   to
+                        <p class="topic-color">Whether you are moving locally or across long distances, trust Safe Xpress Packers And Movers   to
                             provide you with superior packing materials and expert packing services for a secure and
                             successful relocation.</p>
                     </div>

@@ -9,6 +9,8 @@ acronym {
   width: auto;
 }
 
+
+
 body {
   padding: 0 !important;
   font-family: 'Roboto', sans-serif;
@@ -290,19 +292,21 @@ header {
 /* ----Hero-Section-Start--- */
 
 .hero-slide {
+  width: 100%;
+  height: 400px;
   padding: 120px 0px;
-  background-image: linear-gradient(#00000097, #00000097), url(../images/hero1.jpg);
+  background-image: linear-gradient(#00000097, #00000097), url(../images/packers-and-movers.jpg);
   color: #fff;
   position: relative;
   background-size: cover;
 }
 
 .hero-slide2 {
-  background-image: linear-gradient(#00000097, #00000097), url(../images/hero2.jpg);
+  background-image: linear-gradient(#00000097, #00000097), url(../images/packers-and-movers.jpg);
 }
 
 .hero-slide3 {
-  background-image: linear-gradient(#00000097, #00000097), url(../images/hero3.jpg);
+  background-image: linear-gradient(#00000097, #00000097), url(../images/packers-and-movers.jpg);
 }
 
 .hero-slide h2 {
@@ -313,6 +317,7 @@ header {
 .hero-slide .hero-item {
   padding: 40px 0px 50px 50px;
   position: relative;
+
 }
 
 .hero-slide .hero-item .sec-btn {
@@ -344,7 +349,7 @@ header {
 .hero-slider .slick-next {
   display: block !important;
   position: absolute;
-  top: 50%;
+  bottom: 10%;
   right: 20px;
   z-index: 3334;
   height: 55px;
@@ -360,7 +365,7 @@ header {
 }
 
 .hero-slider .slick-next {
-  top: 40%;
+  bottom: 30%;
 }
 
 .hero-slider .slick-arrow::after {
@@ -490,7 +495,7 @@ header {
   right: 0;
   width: 50%;
   height: 100%;
-  background-color: #00bf63;
+  background-color: #fff;
   z-index: -1;
   content: "";
 }
@@ -498,9 +503,12 @@ header {
 .about-section .under {
   color: #01445e;
 }
-
+.topic-color{
+  color: #00bf63;
+}
 .as-content {
   padding-left: 20px;
+  
 }
 
 /* ----about-section-end---- */
@@ -1281,7 +1289,7 @@ h2 {
     display: block;
 }
 .menu .navbar-brand img{
-  width: 200px;
+  width: 150px;
 }
 .menu .navbar-light .navbar-nav .nav-link{
   padding: 8px 0px;
@@ -1628,4 +1636,81 @@ h2 {
     padding:20px 4px;
 
   }
+  .sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 100000; /* Bootstrap navbar ke upar dikhane ke liye z-index high rakho */
+    background-color: #fff; /* Optional: background dena zaroori hota hai sticky ke liye */
+  }
+}
+
+
+
+.hero-section .form-box{
+  position: absolute;
+  top: 10px;
+  right: 100px;
+  width: 37%;
+  z-index: 999;
+  padding:35px 20px;
+  background-color: #fff;
+  box-shadow: 0px 10px 20px 0px #0089ce2b;
+}
+.hero-section .form-box h2{
+margin: 0;
+font-size: 35px;
+color: #00bf63;
+line-height: 40px;
+}
+.form-box .f-group input,.form-box .f-group select,.form-box .f-group textarea{
+width: 100%;
+padding: 16px 20px;
+border: none;
+margin-top: 25px;
+outline: none;
+border: 2px solid #00bf63 !important;
+color: 000 !important;
+}
+.form-box .f-group input::placeholder,.form-box .f-group textarea::placeholder{
+color: #000 !important;
+}
+
+.form-box .f-group .sec-btn{
+width: 100%;
+margin-top: 18px;
+padding: 14px 20px;
+background-color: #00bf63;
+border: none;
+}
+.mobileform-section .form-box{
+  width: 100%;
+  z-index: 999;
+  padding:35px 20px;
+  background-color: #fff;
+  box-shadow: 0px 10px 20px 0px #0089ce2b;
+}
+.mobileform-section .form-box h2{
+margin: 0;
+font-size: 35px;
+color: #00bf63;
+line-height: 40px;
+}
+.form-box .f-group input,.form-box .f-group select,.form-box .f-group textarea{
+width: 100%;
+padding: 16px 20px;
+border: none;
+margin-top: 25px;
+outline: none;
+background-color: #fff;
+}
+.form-box .f-group input::placeholder,.form-box .f-group textarea::placeholder{
+color: #000;
+}
+
+.form-box .f-group .sec-btn{
+width: 100%;
+margin-top: 18px;
+padding: 14px 20px;
+background-color: #00bf63;
+border: none;
 }
